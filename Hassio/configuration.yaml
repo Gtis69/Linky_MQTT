@@ -1,0 +1,192 @@
+# ======================================== LINKY ========================================
+mqtt:
+  sensor:
+    - state_topic: Linky/ADSC/Value
+      unique_id: "Linky_ADSC_Value"
+      name: "Linky Adresse Secondaire du Compteur"
+      unit_of_measurement: ""
+      
+    - state_topic: Linky/VTIC/Value
+      unique_id: "Linky/VTIC/Value"
+      name: "Linky Version de la TIC"
+      unit_of_measurement: ""
+      
+    - state_topic: Linky/DATE/Value
+      unique_id: "Linky/DATE/Value"
+      name: "Linky Date et heure courante"
+      unit_of_measurement: ""
+      
+    - state_topic: Linky/NGTF/Value
+      unique_id: "Linky/NGTF/Value"
+      name: "Linky Nom du calendrier tarifaire fournisseur"
+      unit_of_measurement: ""
+      
+    - state_topic: Linky/LTARF/Value
+      unique_id: "Linky/LTARF/Value"
+      name: "Linky Libellé tarif fournisseur en cours"
+      unit_of_measurement: ""
+      
+    - state_topic: Linky/EAST/Value
+      unique_id: "Linky/EAST/Value"
+      name: "Linky Energie active soutirée totale"
+      unit_of_measurement: "Wh"
+      
+    - state_topic: Linky/EASF01/Value
+      unique_id: "Linky/EASF01/Value"
+      name: "Linky Energie active soutirée Fournisseur, index 01"
+      unit_of_measurement: "Wh"
+      
+    - state_topic: Linky/EASF02/Value
+      unique_id: "Linky/EASF02/Value"
+      name: "Linky Energie active soutirée Fournisseur, index 02"
+      unit_of_measurement: "Wh"
+      
+    - state_topic: Linky/EASF03/Value
+      unique_id: "Linky/EASF03/Value"
+      name: "Linky Energie active soutirée Fournisseur, index 03"
+      unit_of_measurement: "Wh"
+      
+    - state_topic: Linky/EASF04/Value
+      unique_id: "Linky/EASF04/Value"
+      name: "Linky Energie active soutirée Blanc HP"
+      unit_of_measurement: "Wh"
+      
+    - state_topic: Linky/EASF05/Value
+      unique_id: "Linky/EASF05/Value"
+      name: "Linky Energie active soutirée Fournisseur, index 05"
+      unit_of_measurement: "Wh"
+      
+    - state_topic: Linky/EASF06/Value
+      unique_id: "Linky/EASF06/Value"
+      name: "Linky Energie active soutirée Fournisseur, index 06"
+      unit_of_measurement: "Wh"
+      
+    - state_topic: Linky/EASF07/Value
+      unique_id: "Linky/EASF07/Value"
+      name: "Linky Energie active soutirée Fournisseur, index 07"
+      unit_of_measurement: "Wh"
+      
+    - state_topic: Linky/EASF08/Value
+      unique_id: "Linky/EASF08/Value"
+      name: "Linky Energie active soutirée Fournisseur, index 08"
+      unit_of_measurement: "Wh"
+      
+    - state_topic: Linky/EASF09/Value
+      unique_id: "Linky/EASF09/Value"
+      name: "Linky Energie active soutirée Fournisseur, index 09"
+      unit_of_measurement: "Wh"
+      
+    - state_topic: Linky/EASF10/Value
+      unique_id: "Linky/EASF10/Value"
+      name: "Linky Energie active soutirée Fournisseur, index 10"
+      unit_of_measurement: "Wh"
+      
+    - state_topic: Linky/EASD04/Value
+      unique_id: "Linky/EASD04/Value"
+      name: "Linky Energie active soutirée Distributeur, index 04"
+      unit_of_measurement: "Wh"
+      
+    - state_topic: Linky/IRMS1/Value
+      unique_id: "Linky/IRMS1/Value"
+      name: "Linky Courant efficace, phase 1"
+      unit_of_measurement: "A"
+      
+    - state_topic: Linky/URMS1/Value
+      unique_id: "Linky/URMS1/Value"
+      name: "Linky Tension efficace, phase 1"
+      unit_of_measurement: "V"
+      
+    - state_topic: Linky/PREF/Value
+      unique_id: "Linky/PREF/Value"
+      name: "Linky Puissance app. de référence"
+      unit_of_measurement: "kVA"
+      
+    - state_topic: Linky/PCOUP/Value
+      unique_id: "Linky/PCOUP/Value"
+      name: "Linky Puissance app. de coupure"
+      unit_of_measurement: "kVA"
+      
+    - state_topic: Linky/SINSTS/Value
+      unique_id: "Linky/SINSTS/Value"
+      name: "Linky Puissance app. Instantanée soutirée"
+      unit_of_measurement: "VA"
+      
+    - state_topic: Linky/SMAXSN/Value
+      unique_id: "Linky/SMAXSN/Value"
+      name: "Linky Puissance app. max. soutirée n"
+      unit_of_measurement: "VA"
+      
+    - state_topic: Linky/SMAXSN/Horo
+      unique_id: "Linky/SMAXSN/Horo"
+      name: "Linky Puissance app. max. soutirée n (Horodatage)"
+      unit_of_measurement: ""
+      
+    - state_topic: Linky/SMAXSN-1/Value
+      unique_id: "Linky/SMAXSN-1/Value"
+      name: "Linky Puissance app max. soutirée n-1"
+      unit_of_measurement: "VA"
+      
+    - state_topic: Linky/SMAXSN-1/Horo
+      unique_id: "Linky/SMAXSN-1/Horo"
+      name: "Linky Puissance app max. soutirée n-1 (Horodatage)"
+      unit_of_measurement: ""
+      
+    - state_topic: Linky/CCASN/Value
+      unique_id: "Linky/CCASN/Value"
+      name: "Linky Point n de la courbe de charge active soutirée"
+      unit_of_measurement: "W"
+      
+    - state_topic: Linky/CCASN/Horo
+      unique_id: "Linky/CCASN/Horo"
+      name: "Linky Point n de la courbe de charge active soutirée (Horodatage)"
+      unit_of_measurement: ""
+      
+    - state_topic: Linky/CCASN-1/Value
+      unique_id: "Linky/CCASN-1/Value"
+      name: "Linky Point n-1 de la courbe de charge active soutirée"
+      unit_of_measurement: "W"
+      
+    - state_topic: Linky/CCASN-1/Horo
+      unique_id: "Linky/CCASN-1/Horo"
+      name: "Linky Point n-1 de la courbe de charge active soutirée (Horodatage)"
+      unit_of_measurement: ""
+      
+    - state_topic: Linky/UMOY1/Value
+      unique_id: "Linky/UMOY1/Value"
+      name: "Linky Tension moyenne phase 1"
+      unit_of_measurement: "V"
+      
+    - state_topic: Linky/UMOY1/Value
+      unique_id: "Linky/UMOY1/Horo"
+      name: "Linky Tension moyenne phase 1 (Horodatage)"
+      unit_of_measurement: ""
+      
+    - state_topic: Linky/STGE/Value
+      unique_id: "Linky/STGE/Value"
+      name: "Linky Registre de Statuts"
+      unit_of_measurement: ""
+      
+    - state_topic: Linky/MSG1/Value
+      unique_id: "Linky/MSG1/Value"
+      name: "Linky Message court"
+      unit_of_measurement: ""
+      
+    - state_topic: Linky/PRM/Value
+      unique_id: "Linky/PRM/Value"
+      name: "Linky PRM"
+      
+      unit_of_measurement: ""
+    - state_topic: Linky/RELAIS/Value
+      unique_id: "Linky/RELAIS/Value"
+      name: "Linky Relais"
+      unit_of_measurement: ""
+      
+    - state_topic: Linky/NTARF/Value
+      unique_id: "Linky/NTARF/Value"
+      name: "Linky Numéro de l’index tarifaire en cours"
+      unit_of_measurement: ""
+      
+    - state_topic: Linky/NJOURF/Value
+      unique_id: "Linky/NJOURF/Value"
+      name: "Linky Numéro du jour en cours calendrier fournisseur"
+      unit_of_measurement: ""
